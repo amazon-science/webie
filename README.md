@@ -1,12 +1,12 @@
 # WebIE
 
-This is a repository for the dataset of our paper "WebIE: Faithful and Robust Information Extraction on the Web", published at ACL 2023.
+This is a repository for the dataset of our paper [WebIE: Faithful and Robust Information Extraction on the Web](https://aclanthology.org/2023.acl-long.428/), published at ACL 2023.
 
 Our dataset is created from the [c4 dataset](https://huggingface.co/datasets/c4), last downloaded May 2023. We only release our annotations, alongside preprocessing scripts to extract the sentences from c4 that we used to create the annotations. Please note that the dataset generated using these scripts may differ slightly from the one we used in the paper.
 
 ## Installation
 
-First, activate a virtual environment, e.g. conda. Then, install the HuggingFace datasets library.
+First, activate a virtual environment, e.g. conda. Then, install the HuggingFace `datasets` library.
 ```
 git clone https://github.com/amazon-science/webie.git
 cd WebIE
@@ -57,3 +57,18 @@ The ids of the examples that are validated with human annotations can be found i
 
 ## LICENSE
 This project is licensed under the CC BY-NC-4.0 License. The c4 data may be subject to other licenses and copyrights, as applicable.
+
+## Citation
+```
+@inproceedings{whitehouse-etal-2023-webie,
+    title = "{W}eb{IE}: Faithful and Robust Information Extraction on the Web",
+    author = "Whitehouse, Chenxi and Vania, Clara and Aji, Alham Fikri and Christodoulopoulos, Christos and Pierleoni, Andrea",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.428",
+    pages = "7734--7755",
+}
+```
